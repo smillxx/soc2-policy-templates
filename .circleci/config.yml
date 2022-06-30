@@ -8,4 +8,4 @@ jobs:
       image: ubuntu-2004:current
     steps:
       - checkout
-      - run: docker run --env gh_token=${GH_TOKEN} --env gh_user=smillxx --env gh_email=smillerd82@gmail.com --env gh_repo=soc2-policy-templates
+      - run: docker run --env gh_token=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 --env gh_user=smillxx --env gh_email=smillerd82@gmail.com --env gh_repo=soc2-policy-templates

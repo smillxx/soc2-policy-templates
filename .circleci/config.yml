@@ -1,0 +1,11 @@
+version: 2
+executorType: machine
+jobs:
+  build:
+    working_directory: ~/source
+    docker:
+    machine:
+      image: circleci/classic:edge
+    steps:
+      - checkout
+      - run: docker run --env gh_token=${GITHUB_TOKEN} --env gh_user=${GITHUB_USER} --env gh_email=${GITHUB_EMAIL} --env gh_repo=${GITHUB_REPO} ${COMPLY_APP_IMAGE}

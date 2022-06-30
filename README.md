@@ -1,6 +1,6 @@
-# ACME Anvil Corporation Compliance Program
+# SOCIALIVE Compliance Program
 
-This repository consolidates all documents related to the ACME Anvil Corporation Compliance Program.
+This repository consolidates all documents related to the SOCIALIVE Compliance Program.
 
 This example leverages the great work of the: [strongdm comply](https://github.com/strongdm/comply) compliance automation framework.    
 
@@ -40,7 +40,4 @@ The `output/` directory contains all generated assets. Links in the HTML dashboa
 2. Option to push to GoogleDocs vs GitHub.
 3. Enable a corporate branding template option.
 
----    
-
-2019 gjyoung1974@gmail.com
 

@@ -8,4 +8,4 @@ jobs:
       image: ubuntu-2004:current
     steps:
       - checkout
-      - run: docker run #--env gh_token=${GITHUB_TOKEN} --env gh_user=${GITHUB_USER} --env gh_email=${GITHUB_EMAIL} --env gh_repo=${GITHUB_REPO} ${COMPLY_APP_IMAGE}
+      - run: docker run --env gh_token=${GH_TOKEN} --env gh_user=smillxx --env gh_email=smillerd82@gmail.com --env gh_repo=soc2-policy-templates

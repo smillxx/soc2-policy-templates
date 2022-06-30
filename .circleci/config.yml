@@ -5,7 +5,7 @@ jobs:
     working_directory: ~/source
     docker:
     machine:
-      image: ubuntu-2004:current
+      image: circleci/docker@2.1.2
     steps:
       - checkout
-      - run: docker run -d --env gh_token=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 --env gh_user=smillxx --env gh_email=smillerd82@gmail.com --env gh_repo=soc2-policy-templates
+      - run: docker run --env gh_token=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 --env gh_user=smillxx --env gh_email=smillerd82@gmail.com --env gh_repo=soc2-policy-templates

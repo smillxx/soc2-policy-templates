@@ -1,5 +1,5 @@
-name: LMND Medical Group, Inc.
-filePrefix: LEMONAIDE
+name: SOCIALIVE
+filePrefix: SOCIALIVE
 tickets: {}
 # Set approved branch to a branch that has obtained stakeholder and functional approvals
-approvedBranch: ""
+approvedBranch: "main"

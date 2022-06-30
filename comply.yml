@@ -1,0 +1,5 @@
+name: LMND Medical Group, Inc.
+filePrefix: LEMONAIDE
+tickets: {}
+# Set approved branch to a branch that has obtained stakeholder and functional approvals
+approvedBranch: ""
